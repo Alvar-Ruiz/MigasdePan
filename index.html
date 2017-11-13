@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Álvar Ruiz Tavira" />
+        <title>Rapaces Nocturnas Ibéricas</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Rapaces Nocturnas Ibéricas</h1>
+        </header>
+        <main>
+            <div id="migas"></div>
+            <p>Orden</p>
+            <h3>Strigiformes</h3>
+            <p>Familias</p>
+            <nav>
+                <div><h3><a href="tytonidae/index.html">Tytonidae</a></h3></div>
+                <div><h3><a href="strigidae/index.html">Strigidae</a></h3></div>
+            </nav>
+        </main>
+        <footer id="pie">
+            <p>Álvar Ruiz Tavira - 2017</p>
+        </footer>
+        <script type="text/javascript" src="js/MigasdePan.js"></script>
+        <script type="text/javascript" src="js/EstablecerAltura.js"></script>
+        <script>
+            document.getElementById("migas").innerHTML = generateBC(location.href, " &#10172; ");
+        </script>
+    </body>
+</html>
+        
